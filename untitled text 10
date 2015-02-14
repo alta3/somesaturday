@@ -1,0 +1,22 @@
+package main
+
+
+import (
+	"net/http"
+)
+
+
+
+
+
+
+
+
+var A3Db *LMSDbSession            //
+var A3CookieStore *LMSCookieStore // Auth (cookie-user.go), Get/SetFlash (cookie-flash.go and callees)
+
+func main() {
+	r := CreateHandles()
+	log.WithField("address", config.HostName).Info("Webserver: Listening...")
+	http.ListenAndServe(config.HostName, r)
+}
