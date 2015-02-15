@@ -15,7 +15,7 @@ var config = struct {
 }{}
 
 
-
+//Learning to add viper
 func ParseConfig(configFile string) {
 	viper.SetConfigFile(configFile)
        viper.AddConfigPath("/deploy")
