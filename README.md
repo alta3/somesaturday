@@ -15,7 +15,8 @@ Somesaturday is a frameshop where a FRAMER on RED TOP road does museum quality f
    `export PATH=$PATH:/usr/local/go/bin`  
    
 4. clone somesaturday  
-   `cd git/go  
+   `cd git/go`  
    `git clone git@github.com:alta3/somesaturday.git`  
+   `cd somesaturday`
 
-5.   
+5.  
