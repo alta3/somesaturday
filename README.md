@@ -7,7 +7,9 @@ Somesaturday is a frameshop where a FRAMER on RED TOP road does museum quality f
 
 2. Set up directories  
   `mkdir git`  
-  `mkdir git/go`  
+  `mkdir git/go`
+  `mkdir go`
+  `mkdir go/src`
 
 3. Install go  
    `wget https://storage.googleapis.com/golang/go1.8.1.linux-amd64.tar.gz`  
@@ -15,8 +17,10 @@ Somesaturday is a frameshop where a FRAMER on RED TOP road does museum quality f
    `export PATH=$PATH:/usr/local/go/bin`  
    
 4. clone somesaturday  
-   `cd git/go`  
+   `cd ~/git/go`  
    `git clone git@github.com:alta3/somesaturday.git`  
-   `cd somesaturday`
+   `cd ~/git/go/somesaturday`
 
-5.  
+5.  get vipr
+   `go get github.com/spf13/viper`
+
