@@ -1,8 +1,8 @@
 #lightbox{
 	background-color:#eee;
 	padding: 10px;
-	border-bottom: 20px solid #666;
-	border-right: 20px solid #666;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
 	}
 #lightboxDetails{
 	font-size: 0.8em;
