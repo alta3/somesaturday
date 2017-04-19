@@ -21,7 +21,7 @@ Somesaturday is a frameshop where a FRAMER on RED TOP road does museum quality f
    `git clone git@github.com:alta3/somesaturday.git`  
    `cd ~/git/go/somesaturday`  
 
-5.  get vipr  
+5.  get viper  
    `go get github.com/spf13/viper`  
 
 6. Familiarize yourself with the config file, it should be good as is  
