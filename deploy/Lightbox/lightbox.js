@@ -310,7 +310,8 @@ function initLightbox()
 	objOverlay.style.top = '0';
 	objOverlay.style.left = '0';
 	objOverlay.style.zIndex = '90';
- 	objOverlay.style.width = '100%';
+	objOverlay.style.background = 'white';"   ;
+	objOverlay.style.width = '100%';
 	objBody.insertBefore(objOverlay, objBody.firstChild);
 	
 	var arrayPageSize = getPageSize();
