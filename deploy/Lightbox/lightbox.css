@@ -15,7 +15,7 @@
 #lightbox img{ border: none; clear: both;} 
 #overlay img{ border: none; }
 
-#overlay{ background-image: url(whiteoverlay.png); }
+#overlay{ background-image: url(/Lightbox/whiteoverlay.png); }
 
 *html #overlay{
 	background-color: #ffffff;
