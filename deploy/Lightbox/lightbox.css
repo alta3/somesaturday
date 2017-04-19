@@ -17,7 +17,7 @@
 
 #overlay{ background-image: url(whiteoverlay.png); }
 
-* html #overlay{
+*html #overlay{
 	background-color: #ffffff;
 	back\ground-color: transparent;
 	background-image: url(../Images/Lightbox/blank.gif);
