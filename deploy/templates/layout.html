@@ -1,0 +1,83 @@
+{{ define "layout" }} 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="icon" href="/Images/favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> {{ template "title" }} </title>
+<META NAME="description" CONTENT="Picture frames in the Harrisburg and Hershey area ">
+<META NAME="keywords" content="Picture Framing, wooden picture frames" />
+
+<link href="/styles/Mystyles.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style1 {
+	font-size: 16px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8009306-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+<body>
+<div class="Wrapper">
+
+        <div class="Top">
+               <div class="BannerLeft"> {{ template "title" }} </div>
+               <div class="BannerRight"><img src="Images/BarnNorth.jpg" width="33%" height="100" align="right"/></div>
+        </div> 
+
+        <div class="TopNavBarContainer">
+               <div class="TopNavBar"><a href="index.html">Home                       </a>   </div>
+               <div class="TopNavBar"><a href="FrameMaking.html">Frame making         </a>   </div>
+               <div class="TopNavBar"><a href="FeaturedArt.html">Ready Framed Art     </a>   </div>
+               <div class="TopNavBar"><a href="TheFrameShop.html">Tour the Frame Shop </a>   </div>   
+               <div class="TopNavBar"><a href="MeetStu.html">Meet Stu!   </a>   </div>  
+        </div>
+
+        <div class="LeftNav">
+               <p><img src="Images/TinySign.jpg" width="99%"  />
+               <br />
+               <br />
+               Some Saturday Frame Shop<br />
+               7062 Red Top Road<br />
+               Harrisburg, PA<br />
+               <br />
+               <strong>717 566-2486</strong></p>
+               <a href="mailto:somesaturdayframeshop@outlook.com?subject=Found you at SOMESATURDAY.com">
+               <h2><font color="#33FFCC">Click to send EMAIL to us</font></h2>
+               </a>    <h3>&nbsp;</h3>
+               <h4>
+               Mon: Closed<br />
+               Tue: 10 -  5<br />
+               Wed: 10 -  5<br />
+               Thu: 10 -  5<br />
+               Fri: 10 -  5<br />
+               Sat: 10 -  5<br />
+               Sun:  Closed</h4><br />
+
+
+         </div>
+
+      
+
+{{ template "story" }}
+    
+        
+         <div class="Bottom">Copyright Some Saturday Frame Shop 2017 All rights reserved
+         </div>
+</div>
+</body>
+</html>
+{{ end }}

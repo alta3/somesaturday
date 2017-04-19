@@ -1,5 +1,8 @@
+# Leave BasePath "" if the deploy folder will be in the same directory as somesaturday.com 
 BasePath: ""
-HostName: "192.168.241.22:80"
-SalesEmail: "sfeeser@alta3.com"
-Verbose: true 
+
+# The IP addree and port, OK to just list the port, but don't forget the colon (":8888" is good "8888" is bad)
+HostName: ":8888"
+
+
 

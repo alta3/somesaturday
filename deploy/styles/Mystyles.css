@@ -45,20 +45,20 @@
 .LeftNav {
 	background-color: #cc0000;
 	float: left;
-	height: 655px;
-	width: 14%;
+	height: 2200px;
+	width: 15%;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	background-position: left top;
 	color: #FFFFFF;
 	text-align: center;
-	margin-right: 1%;
+	margin-right: 0%;
 	padding-right: 1%;
 }
 
 .Story {
 	height: auto;
-	width: 82%;
+	width: 84%;
 	position: static;
 	display: block;
 	float: right;
