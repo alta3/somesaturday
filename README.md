@@ -24,3 +24,13 @@ Somesaturday is a frameshop where a FRAMER on RED TOP road does museum quality f
 5.  get vipr
    `go get github.com/spf13/viper`
 
+6. Familiarize yourself with the config file, it should be good as is
+   `cat deploy/config.yaml`
+   
+7. start up screen to run somesaturday.go
+    `screen`
+    
+8. compile somesaturday.go
+   `go build somesaturday.go`
+   
+You should see the web page now http://somesaturday.com
