@@ -15,12 +15,12 @@
 #lightbox img{ border: none; clear: both;} 
 #overlay img{ border: none; }
 
-#overlay{ background-image: url(Lightbox/whiteoverlay.png); }
+#overlay{ background-image: url(/Lightbox/whiteoverlay.png); }
 
 *html #overlay{
 	background-color: #ffffff;
 	back\ground-color: transparent;
-	background-image: url(../Images/Lightbox/blank.gif);
+	background-image: url(/Lightbox/whiteoverlay.png);
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="overlay.png", sizingMethod="scale");
 	}
 	
