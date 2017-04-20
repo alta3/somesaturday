@@ -1,0 +1,18 @@
+#The listening port for this server
+Port      = "8722"
+
+# The shell command you want to issue when triggered. Do NOT include an argument here.
+Command   = "git"
+
+# Here is where you put the arugment for the above command.
+Arg = "pull"
+
+
+# This secret must match the Webhooks secret on github
+# See https://github.com/<your_account/<repo>/settings/hooks
+# Use your secret, this is JUST AN EXAMPLE
+Secret    = "happyday"
+
+# This is a comma-delimited list, so you can trigger on multiple repos, but
+# the problem there is that the same secret must be used.
+RepoNames = "somesaturday"

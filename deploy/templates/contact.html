@@ -1,0 +1,64 @@
+{{ define "title" }}Some Saturday Contact Us{{ end }}
+
+{{ define "story" }}
+<div id="contact-us">
+  <div id="info">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 message">
+          <h3>Send us a message</h3>
+          <p>
+            You can contact us with anything related to Picture Framing. <br/> We'll get in touch with you as soon as possible.
+          </p>
+          <form role="form" action="https://formspree.io/somesaturdayframeshop@outlook.com" id="contact-form" method="post">
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input type="text" name="name" class="form-control" id="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" name="email" class="form-control" id="email" />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="text" name="phone" class="form-control" id="phone" />
+            </div>
+            <div class="form-group">
+              <label for="message">Your message</label>
+              <textarea name="message" class="form-control" id="message" rows="6"></textarea>
+            </div>
+            <div class="submit">
+              <input type="submit" class="button button-small" value="Email us" />
+            </div>
+          </form>
+        </div>
+        <div class="col-md-4 contact">
+          <div class="address">
+            <h3>Our Address</h3>
+            <p>
+              Some Saturday Frame Shop <br />
+              7062 Red Top Road <br />
+              Harrisburg, PA 17111
+            </p>
+          </div>
+          <div class="phone">
+            <h3>By Phone</h3>
+            <p>
+              1-717-566-2486
+            </p>
+          </div>
+          <div class="social">
+            <a href="https://www.youtube.com/user/SomeSaturday" >
+              <img src="Images/yt.png" alt="youtube" />
+            </a>
+            <a href="https://twitter.com/somesaturday" class="tw">
+              <img src="Images/social-tw.png" alt="twitter" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
