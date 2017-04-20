@@ -55,8 +55,8 @@ func Template() http.Handler {
 
 
 	if r.URL.Path == "" {
-			http.ServeFile(w, r, config.BasePath + "deploy/pages/index.html")
-			return
+		        r.URL.Path = "/index.html"
+
 		} else if r.URL.Path == "robots.txt" {
 			http.ServeFile(w, r,  config.BasePath + "deploy/robots.txt")
 			return
